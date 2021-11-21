@@ -1,0 +1,66 @@
+.hidden{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+}
+.content{
+    width:500px;
+    height: 353px;
+    background: #fff;
+    position: absolute;
+    top:40px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.stepEmail{
+   width: 270px;
+   margin: 0 auto;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.emailTitle{
+    font-size: 18px;
+}
+
+.emailInput{
+    width: 270px;
+    height:22px;
+    border-bottom: 1px solid #3060BF;
+    margin-top: 40px;
+    font-size: 14px;
+    outline: none;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+}
+.emailInput:focus{
+    outline: none;
+}
+.emailBtn{
+    width: 117px;
+    height:41px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 41px;
+    color: #fff;
+    background: #3060BF;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.return{
+    color:#3060BF;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.codeTip{
+    font-size: 16px;
+    text-align: center;
+}
