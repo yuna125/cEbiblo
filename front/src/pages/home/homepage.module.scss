@@ -1,0 +1,109 @@
+@import './src/assets/sass/shared.scss';
+
+/* Non-Grid FallBack Here */
+
+@media (grid: 0) {
+    /*Desktop Layout Here*/
+    @media (min-width: $laptop) {
+        .HomePage {
+            height: 3933px;
+            width: 100vw;
+            display: grid;
+            //Creates the height of each row component
+            grid-template-rows: 73px 788px 283px minmax(3000px, auto) auto;
+            grid-template-columns: 1fr 8fr 1fr;
+            //Creates the width of each column, set to fr to provide a ration for responsive design
+            //grid-template-columns: 1fr;
+            //padding-left: 10%;
+            //padding-right: 10%;
+            //Labels the grid areas for easy assignment in seperate classes
+            grid-template-areas: "LeftColumn1 NavBar RightColumn1" "LeftColumn2 LandViewPage RightColumn2" "LeftColumn3 AboutPage RightColumn3" "LeftColumn4 HowPage RightColumn4" "LeftColumn5 Footer RightColumn5";
+        }
+        //set the background colour of each section of the website
+        .LeftColumn1 {
+            grid-area: LeftColumn1;
+        }
+        .LeftColumn2 {
+            grid-area: LeftColumn2;
+        }
+        .LeftColumn3 {
+            grid-area: LeftColumn3;
+        }
+        .LeftColumn4 {
+            grid-area: LeftColumn4;
+        }
+        .LeftColumn5 {
+            grid-area: LeftColumn5;
+        }
+        .RightColumn1 {
+            grid-area: RightColumn1;
+        }
+        .RightColumn2 {
+            grid-area: RightColumn2;
+        }
+        .RightColumn3 {
+            grid-area: RightColumn3;
+        }
+        .RightColumn4 {
+            grid-area: RightColumn4;
+        }
+        .RightColumn5 {
+            grid-area: RightColumn5;
+        }
+        .NavBar,
+        .AboutPage,
+        .Footer,
+        .LeftColumn1,
+        .LeftColumn3,
+        .LeftColumn5,
+        .RightColumn1,
+        .RightColumn3,
+        .RightColumn5 {
+            background-color: $BackGroundColourWhite;
+        }
+        .LandViewPage,
+        .HowPage,
+        .LeftColumn2,
+        .LeftColumn4,
+        .RightColumn2,
+        .RightColumn4 {
+            background-color: $landingPageBackgroundColour;
+        }
+        .NavBar {
+            grid-area: NavBar;
+            //overflow: hidden;
+            /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      */
+        }
+        .LandViewPage {
+            grid-area: LandViewPage;
+        }
+        .AboutPage {
+            grid-area: AboutPage;
+        }
+        .HowPage {
+            grid-area: HowPage;
+        }
+        .Footer {
+            grid-area: Footer;
+        }
+    }
+}
+
+
+/*Mobile Layout Here*/
+
+
+/*
+@media screen and (max-width: $phone) {
+    .HomePage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, auto);
+        grid-template-areas: "LeftColumn1 NavBar RightColumn1" "LeftColumn2 LandViewPage RightColumn2" "LeftColumn3 AboutPage RightColumn3" "LeftColumn4 HowPage RightColumn4" "LeftColumn5 Footer RightColumn5";
+    } 
+}*/

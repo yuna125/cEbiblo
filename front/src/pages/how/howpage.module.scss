@@ -1,0 +1,340 @@
+@import './src/assets/sass/shared.scss';
+@media screen and (min-width: $laptop) {
+    .HowPage {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 3fr 3fr 3fr auto 1fr;
+        grid-template-columns: 5fr 2fr 5fr;
+        //Labels the grid areas for easy assignment in seperate classes
+        grid-template-areas: "TopRow TopRow TopRow" "Image1 MiddleColumn Text1" "Text2 MiddleColumn Image2" "Image3 MiddleColumn Text3" "Text4 MiddleColumn Image4" "BottomRow BottomRow BottomRow";
+    }
+    .HowTitle {
+        grid-area: TopRow;
+        font-family: $landingPageTitleFontFamily;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileImage1 {
+        grid-area: Image1;
+        margin: auto;
+    }
+    .mobileImage2 {
+        grid-area: Image2;
+        margin: auto;
+    }
+    .mobileImage3 {
+        grid-area: Image3;
+        margin: auto;
+    }
+    .mobileImage4 {
+        grid-area: Image4;
+        margin: auto;
+    }
+    .topButtonImage {
+        grid-area: BottomRow;
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+    }
+    //Text Item One
+    .TextOne {
+        grid-area: Text1;
+        display: grid;
+        grid-template-rows: 1fr 2fr 4fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "TopLeftSide TopRightSide" "MiddleLeftSide MiddleRightSide" "BottomLeftSide BottomRightSide";
+        position: relative;
+    }
+    .numberImageOne {
+        grid-area: MiddleLeftSide;
+        display: flex;
+        justify-self: right;
+        align-self: flex-start;
+    }
+    .TextOneWriting {
+        grid-area: MiddleRightSide;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+    .TextTitleOne {
+        grid-area: MiddleRightSide;
+        font-family: $howPageTitleFontFamily;
+        font-size: 18px;
+        color: $howPageTitleTextColour;
+    }
+    .TextHeadingOne {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-weight: bold;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    .TextParagraphOne {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    //Text Item Two
+    .TextTwo {
+        grid-area: Text2;
+        display: grid;
+        grid-template-rows: 1fr 2fr 4fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "TopLeftSide TopRightSide" "MiddleLeftSide MiddleRightSide" "BottomLeftSide BottomRightSide";
+        position: relative;
+    }
+    .numberImageTwo {
+        grid-area: MiddleLeftSide;
+        display: flex;
+        justify-self: right;
+        align-self: flex-start;
+    }
+    .TextTwoWriting {
+        grid-area: MiddleRightSide;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+    .TextTitleTwo {
+        grid-area: MiddleRightSide;
+        font-family: $howPageTitleFontFamily;
+        font-size: 18px;
+        color: $howPageTitleTextColour;
+    }
+    .TextHeadingTwo {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-weight: bold;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    .TextParagraphTwo {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    //Text Item Three
+    .TextThree {
+        grid-area: Text3;
+        display: grid;
+        grid-template-rows: 1fr 2fr 4fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "TopLeftSide TopRightSide" "MiddleLeftSide MiddleRightSide" "BottomLeftSide BottomRightSide";
+        position: relative;
+    }
+    .numberImageThree {
+        grid-area: MiddleLeftSide;
+        display: flex;
+        justify-self: right;
+        align-self: flex-start;
+    }
+    .TextThreeWriting {
+        grid-area: MiddleRightSide;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+    .TextTitleThree {
+        grid-area: MiddleRightSide;
+        font-family: $howPageTitleFontFamily;
+        font-size: 18px;
+        color: $howPageTitleTextColour;
+    }
+    .TextHeadingThree {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-weight: bold;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    .TextParagraphThree {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    .TextFour {
+        grid-area: Text4;
+        display: grid;
+        grid-template-rows: 1fr 2fr 4fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "TopLeftSide TopRightSide" "MiddleLeftSide MiddleRightSide" "BottomLeftSide BottomRightSide";
+        position: relative;
+    }
+    .TextFourWriting {
+        grid-area: MiddleRightSide;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+    .TextTitleFour {
+        grid-area: MiddleRightSide;
+        font-family: $howPageTitleFontFamily;
+        font-size: 18px;
+        color: $howPageTitleTextColour;
+    }
+    .TextHeadingFour {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-weight: bold;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+    .TextParagraphFour {
+        grid-area: MiddleRightSide;
+        font-family: $howPageFontFamily;
+        font-size: 18px;
+        color: $textColourGeneral;
+    }
+}
+
+@media screen and (max-width: $phone) {
+  .HowPage {
+      width: 100%;
+      display: grid;
+      grid-template-rows: repeat(7, auto);
+      grid-template-columns: 1fr;
+      background-color: $landingPageBackgroundColour;
+      //row-gap: 10px;
+      //Labels the grid areas for easy assignment in seperate classes
+      grid-template-areas: "How" "Txt1" "Img1" "Txt2" "Img2" "Txt3" "Img3";
+  }
+  .HowTitle {
+      grid-area: How;
+      font-family: $landingPageTitleFontFamily;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  .mobileImage1 {
+      grid-area: Img1;
+      margin: 0 auto;
+      width: 50%;
+      padding-top: 20px;
+  }
+  .mobileImage2 {
+      grid-area: Img2;
+      margin: 0 auto;
+      width: 50%;
+      padding-top: 20px;
+  }
+  .mobileImage3 {
+      grid-area: Img3;
+      margin: 0 auto;
+      width: 50%;
+      padding-top: 20px;
+  }
+  .topButtonImage {
+      display: none;
+  }
+  //Text Item One
+  .TextOne {
+      grid-area: Txt1;
+      font-family: $landingPageTitleFontFamily;
+      font-size: 30px;
+      text-align: center;
+      margin: auto;
+  }
+  .numberImageOne {
+      grid-area: Txt1;
+      justify-self: center;
+  }
+  .TextTitleOne {
+      grid-area: Txt1;
+      text-align: bottom;
+      font-family: $howPageTitleFontFamily;
+      font-size: 18px;
+      color: $howPageTitleTextColour;
+  }
+  .TextHeadingOne {
+      grid-area: Txt1;
+      font-family: $howPageFontFamily;
+      font-weight: bold;
+      font-size: 18px;
+      color: $textColourGeneral;
+  }
+  .TextParagraphOne {
+      grid-area: Txt1;
+      font-family: $howPageFontFamily;
+      font-size: 18px;
+      color: $textColourGeneral;
+  }
+  //Text Item Two
+  .TextTwo {
+      grid-area: Txt2;
+      font-family: $landingPageTitleFontFamily;
+      font-size: 30px;
+      text-align: center;
+      margin: auto;
+  }
+  .numberImageTwo {
+      grid-area: Txt2;
+      justify-self: center;
+  }
+  .TextTitleTwo {
+      grid-area: Txt2;
+      text-align: bottom;
+      font-family: $howPageTitleFontFamily;
+      font-size: 18px;
+      color: $howPageTitleTextColour;
+  }
+  .TextHeadingTwo {
+      grid-area: Txt2;
+      font-family: $howPageFontFamily;
+      font-weight: bold;
+      font-size: 18px;
+      color: $textColourGeneral;
+  }
+  .TextParagraphTwo {
+      grid-area: Txt2;
+      font-family: $howPageFontFamily;
+      font-size: 18px;
+      color: $textColourGeneral;
+  }
+  //Text Item Three
+  .TextThree {
+      grid-area: Txt3;
+      font-family: $landingPageTitleFontFamily;
+      font-size: 30px;
+      text-align: center;
+      margin: auto;
+  }
+  .numberImageThree {
+      grid-area: Txt3;
+      justify-self: center;
+  }
+  .TextTitleThree {
+      grid-area: Txt3;
+      text-align: bottom;
+      font-family: $howPageTitleFontFamily;
+      font-size: 18px;
+      color: $howPageTitleTextColour;
+  }
+  .TextHeadingThree {
+      grid-area: Txt3;
+      font-family: $howPageFontFamily;
+      font-weight: bold;
+      font-size: 18px;
+      color: $textColourGeneral;
+  }
+  .TextParagraphThree {
+      grid-area: Txt3;
+      font-family: $howPageFontFamily;
+      font-size: 18px;
+      color: $textColourGeneral;
+  }
+}

@@ -1,0 +1,26 @@
+@import './src/assets/sass/shared.scss';
+
+@media screen and (min-width: $laptop) {
+    .PublishPage {
+        background-color: "#F5F5F5";
+        margin-top: '50px';
+        height: 1900px;
+        width: 100%;
+        display: grid;
+        //Creates the width of each row, set to fr to provide a ration for responsive design
+        grid-template-columns: 3fr 5fr 3fr;
+        grid-template-rows: 1fr 4fr 2fr 3fr 3fr 2fr 2fr 4fr 2fr;
+        //Labels the grid areas for easy assignment in seperate classes
+        grid-template-areas: "Navbar1 Navbar2 Navbar3" "LeftColumn1 Language RighColumn1" "LeftColumn2 BookTitle RighColumn2" "LeftColumn3 Author RighColumn3" "LeftColumn4 Contributors RighColumn4" "LeftColumn5 Description RighColumn5" "LeftColumn6 PublishRights RighColumn6" "LeftColumn7 Keywords RighColumn7" "LeftColumn8 Categories RighColumn8"
+
+    }
+
+    .BookCoverPosition {
+        display: block;
+        width: 40%;
+        height: 200px;
+        margin-top: 65px;
+        margin-left: 300px;
+    }
+}
+

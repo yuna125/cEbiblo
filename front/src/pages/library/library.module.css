@@ -1,0 +1,247 @@
+div {
+  display: inline-block;
+}
+
+.librarypage {
+  background-color: white;
+}
+
+.top100page {
+  background-color: #f5f5f5;
+  width: 1440px;
+  height: 773px;
+  margin-top: 173px;
+}
+
+.topMenu {
+	width: 1440px;
+	height: 73px;
+	background-color: #ffffff;
+}
+
+.Ebiblologo {
+  width: 33px;
+  height: 33px;
+  margin-top: 24px;
+  margin-left: 140px;
+}
+
+.ebiblo {
+	width: 84px;
+	height: 31px;
+	font-family: Raanana;
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 36px;
+	letter-spacing: 0px;
+	color: #65676a;
+	margin-top: 28px;
+	margin-left: 40px;
+	
+}
+
+.searchbar {
+  width: 684px;
+  height: 65px;
+  margin-left: 378px;
+  margin-top: 4%;
+}
+
+.start {
+  width: 135px;
+  height: 41px;
+  margin-top: 15px;
+  margin-left: 117px;
+}
+
+.cover1 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 522px;
+  margin-left: 70px;
+}
+
+/*.cover2 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 522.09px;
+  margin-left: 413.53px;
+}
+
+.cover3 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 522.09px;
+  margin-left: 756.53px;
+}
+
+.cover4 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 522.09px;
+  margin-left: 1099.53px;
+}
+
+.cover5 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 819.09px;
+  margin-left: 70.53px;
+}
+
+.cover6 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 819.09px;
+  margin-left: 413.53px;
+}
+
+.cover7 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 819.09px;
+  margin-left: 456.53px;
+}
+
+.cover8 {
+  width: 141.76px;
+  height: 210.79px;
+  margin-top: 819.09px;
+  margin-left: 1099.53px;
+}*/
+
+.about {
+  margin-top: 28px;
+  margin-left: 725px;
+	width: 39px;
+	height: 17px;
+	font-family: Microsoft Sans Serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.how {
+  margin-top:28px;
+  margin-left: 71px;
+	width: 30px;
+	height: 17px;
+	font-family: Microsoft Sans Serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.libraryTop {
+  margin-top: 28px;
+  margin-left: 62px;
+	width: 46px;
+	height: 17px;
+	font-family: Microsoft Sans Serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.libraryCentral {
+  margin-top: 93px;
+  margin-left:674px;
+	width: 93px;
+	height: 28px;
+	font-family: Raanana;
+	font-size: 28px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 34px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.top100 {
+  margin-left:4%;
+  margin-top: 2%;
+	width: 131px;
+	height: 30px;
+	font-family: Roboto;
+	font-size: 26px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.top100 .text-style-1 {
+	font-family: Roboto;
+	font-size: 26px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.bookrise{
+	margin-right: 45%;
+  margin-top: 1%;
+	width: 727px;
+	height: 18px;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 18px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.covernumber {
+ 
+  width: 11px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #65676a;
+  
+}
+
+.bookname {
+	width: 107px;
+	height: 24px;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #65676a;
+}
+
+.author {
+	width: 91px;
+	height: 18px;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 18px;
+	letter-spacing: 0px;
+	color: #87898d;
+}
+
+.seemore {
+  margin-top: 1099px;
+  margin-left: 1278px;
+}

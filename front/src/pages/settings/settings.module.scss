@@ -1,0 +1,46 @@
+@import './src/assets/sass/shared.scss';
+
+/* Non-Grid FallBack Here */
+
+@media (grid: 0) {
+    /*Desktop Layout Here*/
+    @media (min-width: $laptop) {
+        .Settings {
+            height: 3933px;
+            width: 100vw;
+            display: grid;
+            //Creates the height of each row component
+            grid-template-rows: 73px 788px 283px 2454px 420px;
+            grid-template-columns: 3fr 8fr;
+            //Creates the width of each column, set to fr to provide a ration for responsive design
+            //grid-template-columns: 1fr;
+            //padding-left: 10%;
+            //padding-right: 10%;
+            //Labels the grid areas for easy assignment in seperate classes
+            grid-template-areas: "LeftColumn1 NavBar" "LeftColumn2 SettingsTabs";
+        }
+        //set the background colour of each section of the website
+        .LeftColumn1 {
+            grid-area: LeftColumn1;
+        }
+        .LeftColumn2 {
+            grid-area: LeftColumn2;
+        }
+       
+        .NavBar,
+        .SettingsTabs,
+        .LeftColumn1,
+        .LeftColumn2
+         {
+            background-color: $BackGroundColourWhite;
+        }
+        
+        .NavBar {
+            grid-area: NavBar;
+        }
+        .SettingsTabs {
+            grid-area: SettingsTabs;
+        }
+    }
+}
+

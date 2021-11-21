@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.auth {
+
+	list-style: none;
+}
+body{
+	width: 100%;
+}
+ul,ol,li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+.disFlex{
+	display: flex;
+}
+
+.dpu{
+	display: flex;
+	margin-left: 100px;
+}
+.dps{
+	display: flex;
+	flex: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.index{
+	width: 1000px;
+	margin: 0 auto;
+} 
+.din{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.tab{
+	margin-left: 30px;
+	flex: 1;
+}
+.PS p{
+	flex: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.count{
+	border: 1px #3060BF;
+	width: 100%;
+}
+.language {
+	padding: 20px;
+	border-bottom: 5px solid #efefef;
+}
+.language p{
+	line-height: 45px;	
+}
+.language p label{
+	width: 100px;
+	color: #3060BF;
+	text-align: center;
+}
+.language p input{
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+}
+.language p:nth-of-type(2){
+	margin-top: 10px;
+}
+.language p select{
+	width: 100px;
+	height: 25px;
+	outline: none;
+}
+.book,.auth{
+	padding: 20px;
+	border-bottom: 5px solid #efefef;
+}
+.lableT{
+	width: 100px;
+	text-align: center; 
+	display: inline-block;
+	color: #3060BF;
+}
+.tit{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.tit input{
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+}
+.inputs{
+	margin-left: 100px;
+}
+.inputs input{
+    width: 48%;
+	height: 35px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: block;
+}
+.select{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.select select{
+	height: 30px;
+	margin-right: 10px;
+	width: 150px;	
+}
+
+.select input{
+	margin-right: 10px;
+}
+.select button{
+	width: 80px;
+}
+.add{
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 100px;
+	height: 30px;
+}
+.textarea{
+	margin-top: 10px ;
+	margin-left: 100px;
+	width: 80%;
+	height: 100px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.align1 {
+  margin-top: 20px;
+}
+
+.shade {
+  filter: drop-shadow(2px 2px 2px grey);
+
+  margin-top: 30px;
+}
+
+.logo1 {
+  margin-left:  100px;
+  margin-right: 30px;
+  margin-top: 20px;
+  width: 40px; 
+}
+.tab:hover {
+  border-right: white;
+}
+.input1 {
+  width: 300px;
+  height: 40px; 
+  font-size: 14px; 
+  border-radius: 12px;
+  background-color: grey;
+}
+
+.icon1 {
+  color: #d3d3d3;
+  margin-top: 0;
+  margin-right: 30px;
+  width: 30px;
+  margin-left: 600px;
+
+}
+
+.icon2 {
+  color: #d3d3d3;
+  width: 35px;
+  margin-right: 0;
+
+}
+
+.pos {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.cover {
+  height: 180px;
+}
+
+.outerpos {
+  background-color: #F3F2EF;
+}
+.pos1 {
+  margin-left: 200px;
+  margin-right:200px;
+}
+
+.tabstyle {
+  border-top: 2px #F5F5F5;
+}
+
+.text1 {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2 {
+  color:grey;
+  font-size: 12px;
+  margin-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text3 {
+  color:green;
+  font-size: 12px;
+  margin-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+

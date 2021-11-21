@@ -1,0 +1,73 @@
+@import './src/assets/sass/shared.scss';
+@media screen and (min-width: $laptop) {
+    .LandViewPage {
+        height: 788px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10fr 4fr 5fr;
+        grid-template-rows: 2fr 10fr 1fr;
+        //Labels the grid areas for easy assignment in seperate classes
+        grid-template-areas: "TopRow TopRow TopRow" "LeftSide MiddleColumn RightSide" "BottomRow BottomRow BottomRow";
+    }
+    .mobileImageLandingPage {
+        grid-area: RightSide;
+    }
+    .LeftSide {
+        grid-area: LeftSide;
+    }
+    .titleOne {
+        color: black;
+        font-family: $landingPageTitleFontFamily;
+        font-size: 80px;
+    }
+    .titleTwo {
+        color: $textColourGeneral;
+        font-family: $navBtnFontFamily;
+        font-size: 18px;
+    }
+    .DownloadButtons {
+        padding-top: 30px;
+    }
+    .googleDownloadButton {
+        margin-left: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: $phone) {
+    .LandViewPage {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1;
+        //Labels the grid areas for easy assignment in seperate classes
+        grid-template-areas: "TopRow";
+        background-color: $landingPageBackgroundColour;
+    }
+    .mobileImageLandingPage {
+        grid-area: TopRow;
+        height: 300px;
+    }
+    .titleOne {
+        color: black;
+        font-family: $landingPageTitleFontFamily;
+        font-size: 32px;
+    }
+    .titleTwo {
+        color: $textColourGeneral;
+        font-family: $navBtnFontFamily;
+        font-size: 18px;
+    }
+    .DownloadButtons {
+        padding-top: 0px;
+    }
+    .googleDownloadButton {
+        margin: 5px 0 0 0;
+        cursor: pointer;
+        padding-bottom: 5px;
+    }
+    .appleDownloadButton {
+        cursor: pointer;
+        margin: auto;
+    }
+}

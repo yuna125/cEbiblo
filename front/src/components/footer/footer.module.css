@@ -1,0 +1,174 @@
+.mains {
+  bottom: 0%;
+  margin-top: 0px;
+  padding: 0px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+.leftside {
+  float: left;
+  clear: left;
+}
+.leftside2 {
+  float: left;
+  clear: left;
+  display: none;
+}
+.rightside {
+  float: right;
+  clear: right;
+  /*margin-right: 50px;
+  margin-top: 20px; */
+}
+.rightside li {
+  list-style-type: none;
+  color: #818181;
+  font-size: 17px;
+  margin-right: 18px !important;
+  display: inline-block;
+  cursor: pointer;
+}
+.rightside li:hover {
+  opacity: 0.5;
+}
+.rightside ul {
+  margin-top: 10px;
+}
+
+.rightside2 {
+  float: right;
+  display: none;
+  clear: right;
+  margin-right: 50px;
+  margin-top: 20px; 
+}
+.rightside2 li {
+  list-style-type: none;
+  color: #818181;
+  font-size: 17px;
+  margin-right: 18px !important;
+  display: inline-block;
+  cursor: pointer;
+}
+.rightside2 li:hover {
+  opacity: 0.5;
+}
+.rightside2 ul {
+  margin-top: 10px;
+}
+
+.btmebibimg {
+  width: 100%;
+  max-width: 150px;
+  float: left;
+}
+.yearlic {
+  font-size: 17px;
+  color: #818181;
+  margin-top: 80px;
+  margin-left: 0px;
+}
+.yearlic2 {
+  font-size: 17px;
+  color: #818181;
+  margin-top: 80px;
+  margin-left: 0px;
+  display: none;
+}
+.social_list {
+  text-align: center;
+}
+.social_list i {
+  display: inlilne;
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.social_list i a {
+  color: #818181;
+}
+.social_list i a:hover {
+  color: rgb(58, 57, 57);
+}
+
+.social_list2 {
+  text-align: center;
+  display: none;
+}
+.social_list2 i {
+  display: inlilne;
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.social_list2 i a {
+  color: #818181;
+}
+.social_list2 i a:hover {
+  color: rgb(58, 57, 57);
+}
+
+@media screen and (max-width: 1000px) {
+  .mains {
+    margin-top: 0px;
+    height: 300px;
+  }
+  .leftside {
+    clear: both;
+    float: none;
+    display: none;
+    width: 100%;
+  }
+  .leftside2 {
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .rightside {
+    margin: 0px;
+    float: none;
+    clear: both;
+    margin-left: 10px !important;
+    display: block;
+  }
+  .rightside2 {
+    margin: 0px;
+    float: none;
+    clear: both;
+    margin-left: 0px !important;
+    display: block;
+  }
+  .social_list2 {
+    display: block;
+    padding: 0px !important;
+    margin-bottom: 20px;
+  }
+  ul {
+    margin: 0px !important;
+  }
+  .social_list {
+    display: none;
+  }
+  .btmebibimg {
+    float: none;
+    clear: both;
+    margin: 0px;
+  }
+  .yearlic {
+    margin-top: 0px;
+    display: none;
+  }
+  .yearlic2 {
+    display: block;
+    margin: 0px !important;
+  }
+  .social_list2 i {
+    margin: 10px;
+  }
+}

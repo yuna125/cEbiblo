@@ -1,0 +1,76 @@
+@import './src/assets/sass/shared.scss';
+
+@media screen and (min-width: $laptop) {
+  .Footer {
+      height: 420px;
+      width: 100%;
+      display: grid;
+      grid-template-rows: 1fr 2fr 1fr 1fr;
+      grid-template-columns: 4fr 2fr 4fr;
+      //Labels the grid areas for easy assignment in seperate classes
+      grid-template-areas: "TopRow TopRow TopRow" "Subscriber MiddleColumn Navigation" "Subscriber MiddleColumn Navigation" "BottomRow BottomRow BottomRow" "FooterLeft FooterMiddle FooterRight";
+  }
+  .Subscriber {
+      grid-area: Subscriber;
+  }
+  .Navigation {
+      grid-area: Navigation;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      //Labels the grid areas for easy assignment in seperate classes
+      grid-template-areas: "NavLeftSide NavRightSide" "NavLeftSide NavRightSide";
+  }
+  .NavLeftSide {
+      grid-area: NavLeftSide;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 25px;
+  }
+  .NavRightSide {
+      grid-area: NavRightSide;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 25px;
+  }
+  .NavLeftSide a,
+  .NavRightSide a {
+      font-size: small;
+      padding: 6px;
+      color: $textColourGeneral;
+      text-decoration: none;
+      font-family: $howPageFontFamily;
+  }
+  .NavLeftSide a:hover,
+  .NavRightSide a:hover,
+  .FooterLeft a:hover {
+      opacity: 0.5;
+      text-decoration: none;
+  }
+  .FooterLeft,
+  .FooterMiddle,
+  .FooterRight {
+      background-color: $landingPageBackgroundColour;
+  }
+  .FooterLeft {
+      grid-area: FooterLeft;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  .FooterMiddle {
+      grid-area: FooterMiddle;
+  }
+  .FooterRight {
+      grid-area: FooterRight;
+      color: $textColourGeneral;
+      font-family: $howPageFontFamily;
+  }
+  .FooterLeft a {
+      color: $textColourGeneral;
+      text-decoration: none;
+      cursor: pointer;
+  }
+}

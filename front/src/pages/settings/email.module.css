@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1{
+    
+    border: 1px solid;
+    border-radius: 6px;
+    color: black;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button2{
+    background-color: green;
+    border: 1px solid green;
+    border-top-left-radius: 6px;
+    border-end-start-radius: 6px;
+    color: white;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button3{
+    border: 1px solid;
+    color: black;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button4{
+    border: 1px solid;
+    border-top-right-radius: 6px;
+    border-end-end-radius: 6px;
+    color: black;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.emailInput{
+    width: 270px;
+    height:22px;
+    border-bottom: 1px solid #3060BF;
+    margin-top: 40px;
+    font-size: 14px;
+    outline: none;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+}

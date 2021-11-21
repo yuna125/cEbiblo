@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Soehne web buch', sans-serif;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+}

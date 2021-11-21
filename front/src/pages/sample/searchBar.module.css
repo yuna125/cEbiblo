@@ -1,0 +1,22 @@
+
+.BarStyling {
+  height: 30px;
+  width: 200px;
+  margin-top: 17px;
+  margin-left: 10px;
+  border-style: hidden;
+  overflow: hidden;
+}
+
+input.BarStyling {
+  color: #b2b2b2;
+  font-size: 12px;
+  border-style: hidden;
+}
+
+::placeholder {
+  color: #b2b2b2;
+  font-size: 12px;
+  border-style: hidden;
+  
+}

@@ -1,0 +1,62 @@
+.main {
+    text-align: center;
+    font-size: 10px;
+}
+.main div {
+    text-align: left;
+    
+}
+.main p{
+    padding-left: 1.1rem;
+    font-size: 18px;
+    color: #979797;
+}
+.main p > a{
+
+    font-size: 18px;
+
+}
+.main ul {
+    padding-left: 2rem;
+    font-size: 18px;
+    color: #979797;
+}
+.main ul > li{
+    
+    font-size: 16px;
+    color: #979797;
+}
+.main ul > li > a{
+    
+    font-size: 16px;
+
+}
+.main h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color : #484848;
+}
+.main h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color : #757575;
+}
+.main h5 {
+    padding-left: 0.9rem;
+    font-size: 20px;
+    font-weight: bold;
+    color : #818181;
+}
+.main h6 {
+    padding-left: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color : #878787;
+}
+
+.main span {
+    padding-left: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    color : #898989;
+}

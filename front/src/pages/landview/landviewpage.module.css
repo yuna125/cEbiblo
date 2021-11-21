@@ -1,0 +1,103 @@
+.landviewpage {
+    float:left;
+    width: 100%;
+    background-color:white;
+    margin-left: 10px;
+}
+
+.downloadbtn {
+    float: left;
+    clear: left;
+}
+
+.googleDownloadButton {
+
+    margin-left: 20px;
+}
+
+.landviewill {
+    float: right;
+    clear: right;
+
+    /*margin-top: 50px;*/
+}
+.landviewill img {
+    width: 100%;
+    max-width: 550px;
+}
+.title {
+    margin-top: 160px;
+    float: left;
+    clear: left;
+}
+.tit1 {
+    font-size: 40px;
+}
+.tit2 {
+    color: rgb(158, 157, 157);
+    font-size: 19px;
+}
+
+@media screen and (max-width: 1000px) {
+    .landviewill {
+        float: none;
+        clear: both;
+    }
+    .title {
+        float: none;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tit1 {
+        font-size: 24px;
+    }
+    .tit2 {
+        font-size: 22px;
+    }
+    .landviewill img {
+        float: left;
+        top: 0%;
+        margin: 0;
+        max-width: 90%;
+    }
+    .getstbtn {
+        margin-left: 33%;
+        width: 100%;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .landviewill {
+        float: none;
+        clear: both;
+    }
+    .title {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tit1 {
+        font-size: 30px;
+    }
+    .tit2 {
+        font-size: 18px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landviewill img {
+        float: left;
+        top: 0%;
+        margin: 0;
+        max-width: 90%;
+    }
+    .getstbtn {
+        margin-left: 33%;
+        width: 100%;
+        font-size: 13px;
+    }
+}

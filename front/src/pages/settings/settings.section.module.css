@@ -1,0 +1,28 @@
+
+.palign {
+  margin-left: 150px;
+
+}
+
+p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.btn 
+{
+  background-color: #3060BF;
+  font-size: 10px;
+  float: right;
+}
+
+h3 {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top:30px;
+}
+h5 {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}

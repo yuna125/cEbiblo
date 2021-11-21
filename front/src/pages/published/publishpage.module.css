@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.auth {
+
+	list-style: none;
+}
+body{
+	width: 100%;
+}
+ul,ol,li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+.disFlex{
+	display: flex;
+}
+
+.dpu{
+	display: flex;
+	margin-left: 100px;
+}
+.dps{
+	display: flex;
+	flex: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.index{
+	width: 1000px;
+	margin: 0 auto;
+} 
+.din{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.tab{
+	margin-left: 30px;
+	flex: 1;
+}
+.PS p{
+	flex: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.count{
+	border: 1px #3060BF;
+	width: 100%;
+}
+.language {
+	padding: 20px;
+	border-bottom: 5px solid #efefef;
+}
+.language p{
+	line-height: 45px;	
+}
+.language p label{
+	width: 100px;
+	color: #3060BF;
+	text-align: center;
+}
+.language p input{
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+}
+.language p:nth-of-type(2){
+	margin-top: 10px;
+}
+.language p select{
+	width: 100px;
+	height: 25px;
+	outline: none;
+}
+.book,.auth{
+	padding: 20px;
+	border-bottom: 5px solid #efefef;
+}
+.lableT{
+	width: 100px;
+	text-align: center; 
+	display: inline-block;
+	color: #3060BF;
+}
+.tit{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.tit input{
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+}
+.inputs{
+	margin-left: 100px;
+}
+.inputs input{
+    width: 48%;
+	height: 35px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: block;
+}
+.select{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.select select{
+	height: 30px;
+	margin-right: 10px;
+	width: 150px;	
+}
+
+.select input{
+	margin-right: 10px;
+}
+.select button{
+	width: 80px;
+}
+.add{
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 100px;
+	height: 30px;
+}
+.textarea{
+	margin-top: 10px ;
+	margin-left: 100px;
+	width: 80%;
+	height: 100px;
+  
+}
+
+
+.standardfontsize {
+	font-size: 14px;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+ul,ol,li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+.disFlex{
+	display: flex;
+}
+
+.dpu{
+	display: flex;
+	margin-left: 100px;
+}
+.dps{
+	display: flex;
+	flex: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.index{
+	width: 1000px;
+	margin: 0 auto;
+} 
+.din{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+}
+.tab{
+	margin-left: 30px;
+	flex: 1;
+}
+.PS p{
+	flex: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.count{
+	border: 1px solid blue;
+	width: 100%;
+}
+.language {
+	padding: 20px;
+	border-bottom: 5px solid #efefef;
+}
+.language p{
+	line-height: 45px;	
+}
+.language p label{
+	width: 100px;
+	color: #0000FF;
+	text-align: center;
+}
+.language p input{
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+}
+.language p:nth-of-type(2){
+	margin-top: 10px;
+}
+.language p select{
+	width: 100px;
+	height: 25px;
+	outline: none;
+}
+.book,.auth{
+	padding: 20px;
+	border-bottom: 5px solid #efefef;
+}
+.lableT{
+	width: 100px;
+	text-align: center; 
+	display: inline-block;
+	color: #0000FF;
+}
+.tit{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.tit input{
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin-top: 10px;
+}
+.inputs{
+	margin-left: 100px;
+}
+.inputs input{
+    width: 48%;
+	height: 35px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: block;
+}
+.select{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.select select{
+	height: 30px;
+	margin-right: 10px;
+	width: 150px;	
+}
+
+.select input{
+	margin-right: 10px;
+}
+.select button{
+	width: 80px;
+}
+.add{
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 100px;
+	height: 30px;
+}
+.textarea{
+	margin-top: 10px ;
+	margin-left: 100px;
+	width: 80%;
+	height: 100px;
+}
+*/

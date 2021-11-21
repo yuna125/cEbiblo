@@ -1,0 +1,29 @@
+.main {
+  text-align: center;
+  margin-top: 50px;
+}
+.tit1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.tit2 {
+  font-size: 20px;
+}
+.buttonwrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 200px;
+  pointer: cursor;
+}
+.buttonwrap p {
+  background-color: #536dfe;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: lighter;
+}
+.buttonwrap p:hover {
+  background-color: rgb(44, 59, 145);
+}

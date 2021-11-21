@@ -1,0 +1,67 @@
+.main {
+  text-align: center;
+  margin-bottom: 180px;
+}
+.messageprv {
+  text-align: center;
+  font-size: 30px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 10%;
+  margin-bottom: 200px;
+}
+.cinputs {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 1px solid #cccccc;
+}
+.cinputst {
+  border: 1px solid #cccccc;
+  width: 50%;
+  font-size: 15px;
+  padding: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.cbutton {
+  border: none;
+  padding: 10px 60px 10px 60px;
+  font-size: 15px;
+  background-color: #536dfe;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.cbutton:hover {
+  background-color: rgb(44, 59, 145);
+}
+.cerrors {
+  margin: 0px;
+  margin-top: 5px;
+  padding: 0px;
+  font-size: 13px;
+  color: red;
+}
+.tit1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 798px) {
+  .cinputs {
+    width: 100%;
+  }
+  .cinputst {
+    width: 100%;
+  }
+  .cbutton {
+    width: 100%;
+  }
+}
